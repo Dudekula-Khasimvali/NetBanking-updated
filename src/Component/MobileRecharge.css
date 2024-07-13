@@ -1,0 +1,48 @@
+.dth-recharge-container, .recharge-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: hsl(189, 69%, 43%);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 150px;
+  }
+  
+  .providers-container, .operators-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .provider, .operator {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .provider:hover, .operator:hover {
+    transform: scale(1.2);
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .provider-logo, .operator-logo {
+    max-width: 80%;
+    max-height: 100%;
+  }
+  
+  .provider:focus, .operator:focus {
+    outline: 2px solid #007bff;
+    transform: scale(1.2);
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

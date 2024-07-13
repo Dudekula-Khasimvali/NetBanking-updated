@@ -1,0 +1,34 @@
+.marquee {
+    overflow: hidden;
+    position: relative;
+    background: #8b1dba;
+    color: #e6dfdf;
+    height: 40px; /* Adjust the height as needed */
+    line-height: 40px; /* Center the text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    animation: marquee 10s linear infinite;
+  }
+  
+  .static-text {
+    position: absolute;
+    z-index: 1;
+    background: #fff; /* Same as the background color of the marquee to cover scrolling text */
+    padding: 0 10px; /* Padding to avoid text overlap */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

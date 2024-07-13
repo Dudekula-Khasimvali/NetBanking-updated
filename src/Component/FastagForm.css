@@ -1,0 +1,77 @@
+/* src/FastagForm.css */
+.fastag-form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fastag-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fastag-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.fastag-form-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.fastag-form-container input,
+.fastag-form-container select {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fastag-form-container button {
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.fastag-form-container button:hover {
+    background-color: darkorange;
+}
+
+.note {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.note p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.car-icon {
+    margin-right: 10px;
+    animation: drive 2s infinite;
+}
+
+@keyframes drive {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

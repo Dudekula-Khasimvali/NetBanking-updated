@@ -1,0 +1,79 @@
+/* History.css */
+
+.transaction-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-list h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.transaction-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.transaction-list li div {
+  margin-bottom: 8px;
+}
+
+.transaction-list li div:last-child {
+  margin-bottom: 0;
+}
+
+.transaction-list .error {
+  color: #ff0000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Additional styles for specific fields */
+.transaction-list li .transaction-id {
+  font-weight: bold;
+}
+
+.transaction-list li .timestamp {
+  color: #666;
+}
+
+.transaction-list li .amount {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.transaction-list li .recipient-name {
+  color: #333;
+}
+
+.transaction-list li .status {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.transaction-list li .status.pending {
+  color: #ffc107;
+}
+
+.transaction-list li .status.completed {
+  color: #4caf50;
+}
+
+.transaction-list li .status.failed {
+  color: #f44336;
+}

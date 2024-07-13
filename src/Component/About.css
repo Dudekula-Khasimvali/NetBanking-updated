@@ -1,0 +1,32 @@
+.about-background {
+    background-color: #524d4d; /* Replace with desired background color */
+    padding: 40px; /* Add some padding to create space around the card */
+}
+
+.about-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 20px solid #dfdee6;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #91d899; /* Add background color */
+    margin-top: 30px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}

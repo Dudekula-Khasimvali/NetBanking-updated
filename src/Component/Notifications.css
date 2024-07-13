@@ -1,0 +1,40 @@
+/* Notifications.css */
+.notifications-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.notifications-container h1 {
+    color: #333;
+    text-align: center;
+}
+
+.notifications-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notification-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.notification-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.notification-item p {
+    margin: 0;
+}
+
+.notification-time {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #888;
+}

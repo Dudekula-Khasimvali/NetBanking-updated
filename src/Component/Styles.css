@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .navbar {
+    background-color: #333; /* Background color for navbar */
+    padding: 10px; /* Padding around navbar items */
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between brand and nav items */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .navbar-brand img {
+    height: 60px; /* Height for the brand logo */
+    border-radius: 50%; /* Circular logo */
+  }
+  
+  .navbar-collapse {
+    display: flex; /* Flex display for alignment */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .navbar-nav {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Flex display for alignment */
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Space between nav items */
+  }
+  
+  .nav-link {
+    color: white; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-link:hover {
+    color: #ccc; /* Hover color */
+    text-decoration: underline; /* Hover underline */
+  }
+  
+  .nav-link:active {
+    color: #aaa; /* Active link color */
+  }
+  
+  .welcome-text h1 {
+    text-align: center;
+    color: white; /* Ensure the text color is white */
+  }
+  
